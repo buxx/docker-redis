@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20151213
-MAINTAINER sameer@damagehead.com
+FROM buxx/docker-ubuntu:14.04.20151213
+MAINTAINER bastien.sevajol@algoo.fr
 
 ENV REDIS_USER=redis \
     REDIS_DATA_DIR=/var/lib/redis \
